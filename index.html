@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio Clément Plançon</title>
+    <meta name="viewport" content="width-device-widht, initial-scale=1.0" />
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+
+
+
+">
+    <!--FONT CSS-->
+
+    <!--CUSTOM CSS-->
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--JS SCRIPT-->
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="corps">
+        <!-- NAVBAR -->
+
+        <nav>
+            <img src="img/logo.png" alt="" class="logo" />
+            <ul>
+                <li> <a href="#accueil">Accueil</a></li>
+                <li><a href="#bienvenue">A propos</a></li>
+                <li><a href="#service">Portfolio</a></li>
+                <li><a href="#methode">Contact</a></li>
+            </ul>
+            <img src="img/moon.png" alt="" id="icon">
+        </nav>
+
+        <div class="info">
+            <h1>Je suis <span>Clément</span> Plançon</h1>
+            <p>Bienvenue sur mon portfolio, vous pourrez découvrir mon travail que cela soit <br> relatif au développement web ou au design.
+            </p>
+            <a href="#">Télecharger mon CV</a>
+        </div>
+
+        <div class="img_box">
+            <img src="img/pattern.png" alt="" class="back_img">
+            <img src="img/#.png" alt="" class="main_img">
+        </div>
+
+        <div class="social_link">
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+            <a href=""><i class="fab fa-behance"></i></a>
+            <a href=""><i class="fab fa-dribbble"></i></a>
+        </div>
+
+        <div class="triangle_yellow">
+            <img src="img/triangle_yellow.png" alt="">
+            <img src="img/triangle_yellow.png" alt="">
+            <img src="img/triangle_yellow.png" alt="">
+            <img src="img/triangle_yellow.png" alt="">
+            <img src="img/triangle_yellow.png" alt="">
+            <img src="img/triangle_yellow.png" alt="">
+            <img src="img/triangle_yellow.png" alt="">
+        </div>
+    </div>
+
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+            document.body.classList.toggle("dark_theme");
+            if (document.body.classList.contains("dark_theme")) {
+                icon.src = "img/sun.png";
+            } else {
+                icon.src = "img/moon.png";
+            }
+        }
+    </script>
+
+    <!-- SECTION 1 -->
+
+    <!-- SECTION 2 -->
+
+    <!-- SECTION 3 -->
+
+    <!-- SECTION 4 -->
+
+</body>
+
+</html>
